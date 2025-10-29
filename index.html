@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hackcelestia</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <meta
+      name="description"
+      content="HackCelestia - third edition of annual hackathon organized by Banasthali Vidyapith"
+    />
+    <meta
+      name="keywords"
+      content="Hackathon,Banasthali,Viyapith,Jaipur,Rajasthan,HackCelestia,App,Team,2025"
+    />
+    <meta name="author" content="Gunjan Tewari" />
+    <meta name="author" content="Anjali Yadav>" />
+    <meta name="author" content="Aishwarya Dublish>" />
+    <meta name="author" content="Kirtika Dwivedi>" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./css/responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Didact+Gothic"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      <ul id="nav-menu">
+        <li class="close-menu" id="close-menu">X</li>
+        <!-- Close Button -->
+        <li><a href="#home">Home</a></li>
+        <li><a href="#name">About Us</a></li>
+        <li><a href="#Themes">Themes</a></li>
+        <li><a href="#Timeline">Timeline</a></li>
+        <li><a href="#Guidelines">Guidelines</a></li>
+        <li><a href="#Prizes">Prizes</a></li>
+        <li><a href="#FAQs">FAQs</a></li>
+        <li>
+          <a
+            href="https://forms.gle/qXdcRf8RtF4Ph2f87"
+            style="border: 1px solid white; padding: 5px"
+            >Register</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="content">
+      <div class="frame frame1" id="home">
+        <div class="video-container">
+          <video
+            src="images/BanasthalI Vidyapith.mp4"
+            autoplay
+            muted
+            loop
+          ></video>
+          <svg
+            class="wave-overlay"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 320"
+            preserveAspectRatio="none"
+          >
+            <path
+              fill="#ffffff"
+              fill-opacity="1"
+              d="M0,224L60,192C120,160,240,96,360,101.3C480,107,600,181,720,213.3C840,245,960,235,1080,208C1200,181,1320,139,1380,117.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+
+      <div class="frame frame2" id="name">
+        <img class="img-back-left" src="./images/back-2.svg" />
+        <img class="img-back" src="./images/back-3.svg" />
+        <div class="frame2-left">
+          <img
+            src="./images/Sponsors/about.jpg"
+            class="responsive-img"
+            alt="Description of the image"
+          />
+        </div>
+        <div class="frame2-right">
+          <div class="name">About us!!</div>
+          <div class="content">
+            <p>
+              Welcome to Hack Celestia – the third season of our hackathon! This
+              48-hour event brings together the brightest minds from around the
+              world, challenging innovators, creators, and tech enthusiasts to
+              collaborate, compete, and bring solutions to life. Hack Celestia
+              is a space for pushing boundaries, building impactful projects,
+              and connecting with a global community of future-focused thinkers.
+            </p>
+            <p>
+              <b>International Participation </b>| Diverse Challenges | 3 Days
+              of Non-Stop Innovation
+            </p>
+            <p>
+              The countdown to brilliance begins now—don’t miss your chance to
+              be part of something extraordinary!
+            </p>
+            <p>
+              <button
+                class="button button2"
+                style="height: 70px; width: 200px"
+                onclick="window.location.href='https://forms.gle/qXdcRf8RtF4Ph2f87'"
+              >
+                Register Now
+              </button>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="frame frame6" id="Themes">
+        <div style="background-color: #041e3f">
+          <img src="./images/back-4.svg" class="img-back" />
+          <div class="name" style="color: white">PROBLEM STATEMENTS</div>
+          <br />
+
+          <h2 style="color: white">
+            You can view the reference ppt template here:
+            <a href="Hack Celestia Template.pptx" style="color: white"
+              >Reference ppt</a
+            >
+          </h2>
+          <br />
+          <br />
+          <div class="prizes">
+            <div class="prizes-cont">
+              <div class="prize" onclick="openCard(this,'content1')">
+                <div class="prize-img">
+                  <img class="img-square" src="./images/Sponsors/AI Research Assistant.png" />
+                </div>
+                <div class="prize-text">AI Research Assistant</div>
+              </div>
+              <div class="prize" onclick="openCard(this,'content2')">
+                <div class="prize-img">
+                  <img class="img-square" src="./images/Sponsors/Sustainable Software & Digital Efficiency 2.png" />
+                </div>
+                <div class="prize-text">Sustainable Software & Digital Efficiency</div>
+              </div>
+              <div class="prize" onclick="openCard(this,'content3')">
+                <div class="prize-img">
+                  <img class="img-square" src="./images/Sponsors/Open Internet & Protocol Innovation.png" />
+                </div>
+                <div class="prize-text">Open Internet & Protocol Innovation </div>
+              </div>
+              <div class="prize" onclick="openCard(this,'content4')">
+                <div class="prize-img">
+                  <img class="img-square" src="./images/Sponsors/Space_Tech&_Satellite_Application[1].jpg" />
+                </div>
+                <div class="prize-text">Space Tech & Satellite Applications</div>
+              </div>
+              <div class="prize" onclick="openCard(this,'content5')">
+                <div class="prize-img">
+                  <img
+                    class="img-square"
+                    src="./images/Sponsors/Generative AI & Agentic AI.png"
+                  />
+                </div>
+                <div class="prize-text">Gen AI & Agentic AI</div>
+              </div>
+              <div class="prize" onclick="openCard(this,'content6')">
+                <div class="prize-img">
+                  <img class="img-square" src="./images/Sponsors/Intelligent Agent Autonomous.png" />
+                </div>
+                <div class="prize-text">Intelligent Agents & Autonomous Systems</div>
+              </div>
+              <div class="prize" onclick="openCard(this,'content7')">
+                <div class="prize-img">
+                  <img
+                    class="img-square"
+                    src="./images/Sponsors/Metaverse & Virtual World.png"
+                  />
+                </div>
+                <div class="prize-text">Metaverse & Virtual World</div>
+              </div>
+              <div class="prize" onclick="openCard(this,'content8')">
+                <div class="prize-img">
+                  <img class="img-square" src="./images/Sponsors/Pharmaceutical & Biotechnology.png" />
+                </div>
+                <div class="prize-text">
+                  Pharmaceutical & Biotechnology
+                </div>
+              </div>
+              <div class="prize" onclick="openCard(this,'content9')">
+                <div class="prize-img">
+                  <img
+                    class="img-square"
+                    src="./images/Sponsors/Material Science & Nanotechnology.png"
+                    style="height: 90%"
+                  />
+                </div>
+                <div class="prize-text">Material Science & Nanotechnology</div>
+              </div>
+              <div class="prize" onclick="openCard(this,'content10')">
+                <div class="prize-img">
+                  <img class="img-square" src="./images/Sponsors/aimll.jpeg" />
+                </div>
+                <div class="prize-text">Cybersecurity</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="./images/back-5.svg" class="img-back" />
+      </div>
+
+      <!-- Modal for displaying card details -->
+      <div id="cardModal" class="modal">
+        <span class="close" onclick="closeCard()">&times;</span>
+        <div class="modal-content">
+          <div id="modalImage" class="modal-img"></div>
+          <div id="modalText" class="modal-text"></div>
+        </div>
+      </div>
+
+      <!-- Content Data for the Modal -->
+      <div id="content1" style="display: none">
+        <ol type="1">
+          <h2>AI Research Assistant</h2>
+          <hr />
+          <li>
+            <h3>Smart City Traffic Control with 6G Sensors:</h3>
+            <p>
+             Cities face constant issues of traffic congestion, delays, and accidents, which increase pollution and reduce quality of life. With next-generation connectivity, how can urban traffic be managed in a way that ensures smoother flow and quicker response to disruptions?
+            </p>
+          </li>
+          <li>
+            <h3>Emergency Response Optimization using 6G Networks</h3>
+            <p>
+              In a city where emergencies occur unpredictably, delays in response can cost lives. How can future networks be used to detect incidents early and ensure that emergency services reach the scene in the fastest and safest way possible?
+            </p>
+          </li>
+          <li>
+            <h3>Smart Parking System with 6G IoT:</h3>
+            <p>
+              Urban areas struggle with limited parking availability, leading to wasted time, fuel, and frustration. How can technology help citizens quickly locate and secure available parking spaces in real time?
+            </p>
+          </li>
+          <li>
+            <h3>Drone Fleet Management over 6G:</h3>
+            <p>
+              With growing reliance on drones for logistics and deliveries, cities face challenges in managing their routes, avoiding collisions, and ensuring timely service. How can large fleets of drones be coordinated effectively in urban environments?
+            </p>
+          </li>
+          <li>
+            <h3>Smart Environmental Monitoring:</h3>
+            <p>
+             Cities increasingly face pollution, rising temperatures, and noise issues that affect public health. How can real-time monitoring and alerts empower communities and governments to take timely action?
+            </p>
+          </li>
+          <li>
+            <h3>Adaptive Public Transport Scheduling:</h3>
+            <p>
+             Public transport systems often struggle with overcrowding, delays, and inefficiencies. How can data-driven decision-making improve scheduling and routing to better serve commuters in real time?
+            </p>
+          </li>
+          <li>
+            <h3>Autonomous Vehicle Platooning:</h3>
+            <p>
+             As autonomous vehicles become common, coordinating their behavior to maximize safety and efficiency is a major challenge. How can connected vehicles collaborate to reduce accidents, save energy, and optimize road usage? 
+            </p>
+          </li>
+          <li>
+            <h3>Disaster Management and Evacuation:</h3>
+            <p>
+             During natural disasters, panic, limited resources, and lack of clear guidance worsen the crisis. How can technology assist in guiding evacuations, managing resources, and ensuring safety for large populations under emergency conditions?
+            </p>
+          </li>
+        </ol>
+      </div>
+      <div id="content2" style="display: none">
+        <ol type="1">
+          <h2>Sustainable Software & Digital Efficiency</h2>
+          <hr />
+          <li>
+            <h3>Carbon & Resource Tracking Tools:</h3>
+            <p>
+            <ol>
+              <h5>Multi-System Carbon Tracker:</h5>
+              Organizations struggle to understand the combined environmental footprint of their digital systems. How can energy usage and emissions be tracked across diverse platforms in a unified and actionable way?
+            </ol>
+            <ol>
+              <h5>Historical Resource Audit & Reporting:</h5>
+              Sustainability efforts require accountability. How can organizations access detailed historical data on their energy and resource consumption for audits and long-term planning?
+            </ol>
+            </p>
+          </li>
+          <li>
+            <h3>Green Code Profiler:</h3>
+            <p>
+              <ol>
+              <h5>Energy Profiling for Functions:</h5>
+              Developers often write code without knowing which parts consume excessive energy. How can energy-intensive functions be identified and made visible for optimization?
+            </ol>
+            <ol>
+              <h5>Code Execution Carbon Impact Simulator:</h5>
+              Software consumes resources differently depending on workload. How can developers estimate the environmental impact of their code and explore alternatives to reduce it?
+            </ol>
+            </p>
+          </li>
+          <li>
+            <h3>Smart Energy Systems:</h3>
+            <p>
+              <ol>
+              <h5>Rule-Based Smart Grid Optimizer:</h5>
+Energy grids struggle to balance demand peaks, integrate renewables, and prevent outages. How can they be managed more intelligently to reduce waste and increase reliability?            </ol>
+            <ol>
+              <h5>Deterministic Energy Demand Forecasting:</h5>
+Unpredictable energy demand leads to inefficiencies and shortages. How can future demand be forecasted to ensure sustainable and stable distribution?
+            </ol>
+            </p>
+          </li>
+          <li>
+            <h3>Energy-Aware Scheduling Tool:</h3>
+            <p>
+              <ol>
+              <h5>Green Job Scheduler:</h5>
+Many tasks in computing can be flexible in timing, but current systems don’t consider energy efficiency. How can scheduling be optimized to align with low-demand or renewable-rich periods?
+              </ol>
+              <ol>
+              <h5>Carbon-Conscious Workflow Optimizer:</h5>
+ Workflows often maximize speed or cost efficiency without considering carbon footprint. How can processes be redesigned to minimize environmental impact while maintaining performance?
+            </ol>
+            </p>
+          </li>
+        </ol>
+      </div>
+      <div id="content3" style="display: none">
+        <ol type="1">
+          <h2> Open Internet & Protocol Innovation</h2>
+          <hr />
+          <li>
+            <h3>Post-Quantum Secure Messaging Layer:</h3>
+            <p>
+              As quantum computers become more powerful, today’s encryption methods will no longer guarantee privacy. Messaging systems risk being decrypted in the future, exposing sensitive conversations. How can communication remain secure and private — even decades from now — while supporting features like offline use, groups, and message ordering?
+            </p>
+          </li>
+          <li>
+            <h3>
+              Portable Peer Identity Layer:
+
+            </h3>
+            <p>
+              Today, most digital identities are tied to big platforms (Google, Apple, Facebook), limiting user control and portability. People lack a universal way to manage their own identities securely across devices and apps. How can we enable individuals to own and carry their digital identity independently of centralized providers?
+
+            </p>
+          </li>
+          <li>
+            <h3>Resilient IoT Data Exchange Protocol:</h3>
+            <p>
+              Billions of IoT devices rely on cloud services and stable internet — but in rural, disaster-prone, or low-power environments, this isn’t reliable. Devices must still exchange data and remain functional even with poor connectivity. How can IoT devices communicate effectively, sync offline, and conserve energy without constant cloud dependency?
+
+            </p>
+          </li>
+          <li>
+            <h3>
+              Open Multi-Hop Routing for Browsers
+            </h3>
+            <p>
+              The web today depends heavily on centralized servers, making applications vulnerable to outages, surveillance, and single points of failure. How can browsers themselves directly relay data through multiple peers, enabling resilient, decentralized web applications that continue to function even without central infrastructure?
+            </p>
+          </li>
+          <li>
+            <h3>Universal Offline Content Sync Protocol:</h3>
+            <p>
+ In areas with poor or intermittent internet, files, updates, and content are often lost or delayed. Users need reliable access across their devices even when connections drop. How can devices automatically sync and share data offline, ensuring updates propagate seamlessly once connectivity returns?
+            </p>
+          </li>
+          <li>
+            <h3>Censorship-Evasion Transport Layer:</h3>
+            <p>
+In many regions, authorities monitor or block online communication by detecting and filtering traffic. This restricts access to free expression and information. How can communication be disguised in everyday internet traffic so that it remains accessible and censorship-resistant under such conditions?
+
+            </p>
+          </li>
+          <li>
+            <h3>Minimal-Metadata Email Alternative:</h3>
+            <p>
+Traditional email exposes metadata — sender, recipient, timestamp — even when message bodies are encrypted. This metadata can be tracked, profiled, or exploited. How can we create an email-like communication system that protects not just the message but also the surrounding metadata?
+            </p>
+          </li>
+        </ol>
+      </div>
+      <div id="content4" style="display: none">
+        <ol type="1">
+          <h2>Space Tech & Satellite Applications</h2>
+          <hr />
+          <li>
+            <h3>Satellite Data for Disaster Response:</h3>
+            <p>
+Natural disasters like floods, wildfires, and landslides strike with
+little warning, and timely information is critical to saving lives.
+Traditional ground-based monitoring often falls short in speed
+and coverage. How can satellite imagery and weather data be
+harnessed to rapidly detect disasters, assess their impact, and
+provide actionable insights for emergency response teams?            </p>
+          </li>
+          <li>
+            <h3>Satellite-Backed Emergency Connectivity Kit:</h3>
+            <p>
+              
+When disasters destroy ground infrastructure, entire regions can
+lose access to communication — isolating victims and slowing
+rescue operations. How can satellite-based communication
+channels provide a reliable, lightweight, and accessible way for
+people to connect during crises when no internet or cellular
+networks are available?            </p>
+          </li>
+          <li>
+            <h3>
+              Satellite-Powered Wildlife Detection:
+            </h3>
+            <p>
+Conservation of endangered species is limited by the difficulty of
+monitoring wildlife across vast, remote, or hostile terrains.
+Ground-based tracking is costly and often incomplete. How can
+satellite imagery and advanced analysis methods be used to
+detect, track, and study wildlife populations at scale —
+overcoming challenges like cloud cover, terrain variations, and
+seasonal changes — to aid global conservation efforts?            </p>
+          </li>
+          <li>
+            <h3>
+              Satellite-Enabled Climate Monitoring and Carbon Tracking:
+            </h3>
+            <p>
+Climate change is accelerating, yet precise, real-time tracking of
+environmental metrics like deforestation, glacial melt, ocean
+temperatures, and greenhouse gas emissions remains
+fragmented.
+How can satellite constellations and AI-driven analytics be
+leveraged to build an accurate, open-access global monitoring
+system that tracks carbon emissions, land-use changes, and
+environmental degradation — empowering policymakers,
+researchers, and communities to take data-driven climate
+action?            </p>
+          </li>
+          <li>
+            <h3>
+              Precision Agriculture with Satellite Intelligence:
+            </h3>
+            <p>
+Farmers, especially in developing regions, face challenges like
+unpredictable weather, inefficient irrigation, and low crop yields.
+Satellite data offers a scalable way to monitor soil health, crop
+growth, and water availability.
+How can multispectral and hyperspectral satellite imagery be
+integrated with ground sensors and predictive models to deliver
+real-time, location-specific insights that help farmers optimize
+resources, reduce waste, and improve food security?            </p>
+          </li>
+        </ol>
+      </div>
+      <div id="content5" style="display: none">
+        <ol type="1">
+          <h2>Gen AI & Agentic AI</h2>
+          <hr />
+          <li>
+            <h3>
+              Autonomous Research Co-Pilot:
+            </h3>
+            <p>
+             Researchers spend countless hours scanning literature, drafting reviews, and identifying research gaps. How can AI agents autonomously analyze large volumes of academic material, generate meaningful insights, and suggest promising research directions?
+            </p>
+          </li>
+          <li>
+            <h3>AI for Creative Co-Design:
+            </h3>
+            <p>
+               Designers, writers, and artists often face creative blocks. How can generative AI collaborate as a true creative partner — suggesting designs, refining ideas, or generating novel concepts while preserving human originality and intent?
+            </p>
+          </li>
+          <li>
+            <h3>Personalized AI Tutor & Mentor:</h3>
+            <p>
+              Students struggle with one-size-fits-all learning systems that fail to adapt to their unique pace and style. How can agentic AI act as a personal tutor — generating custom explanations, examples, and practice while autonomously adjusting to each learner’s progress?
+            </p>
+          </li>
+          <li>
+            <h3>Autonomous Productivity Agents:
+            </h3>
+            <p>
+Professionals are overloaded with repetitive tasks like scheduling, email triage, and report drafting. How can agentic AI plan, prioritize, and autonomously execute such tasks to free up human focus for higher-value work?            </p>
+          </li>
+          <li>
+            <h3>Generative Healthcare Assistants:
+            </h3>
+            <p>
+ Doctors need tools that help summarize patient histories, draft medical notes, and generate treatment suggestions — but accuracy and safety are paramount. How can AI generate reliable, domain-specific outputs while staying explainable and trustworthy in healthcare?            </p>
+          </li>
+          <li>
+            <h3>Synthetic Data Generator for AI Training:
+            </h3>
+            <p>
+Many industries lack large, diverse datasets for AI model training. How can generative AI create realistic, privacy-preserving synthetic data that captures real-world complexity while avoiding bias or misuse?
+            </p>
+          </li>
+          <li>
+            <h3>AI-Powered Simulation & Scenario Generation:
+            </h3>
+            <p>
+Businesses, governments, and educators often rely on simulations to prepare for emergencies, negotiations, or training. How can generative AI build dynamic, multi-agent simulations that adapt and evolve, providing rich “what-if” scenarios for planning and decision-making?
+            </p>
+          </li>
+          <li>
+            <h3>Ethical & Responsible Content Generation:
+            </h3>
+            <p>
+Generative AI is powerful but can also produce misinformation, biased content, or harmful material. How can we design systems that not only generate high-quality outputs but also embed safeguards for fairness, safety, and accountability?            </p>
+          </li>
+        </ol>
+      </div>
+      <div id="content6" style="display: none">
+        <ol type="1">
+          <h2>Intelligent Agent Autonomous</h2>
+          <hr />
+          <li>
+            <h3>Adaptive Environment Agents:</h3>
+            <p>
+               Modern environments—whether offices, factories, or homes—often waste resources due to inefficiency in space use, energy consumption, or workflow. How can autonomous agents continuously monitor these environments and suggest or even implement improvements in real time?
+            </p>
+          </li>
+          <li>
+            <h3>Anomaly Detection Agents:</h3>
+            <p>
+               In industries and digital platforms, unusual patterns—whether in machine performance, social media activity, or system logs—can signal critical issues. How can intelligent agents detect these anomalies in real-time data streams and trigger timely interventions?
+
+            </p>
+          </li>
+          <li>
+            <h3>Virtual Crowd Management:</h3>
+            <p>
+              From large-scale multiplayer games to online events, managing the movement and behavior of digital crowds remains a challenge. How can autonomous agents guide, control, and simulate virtual crowds to ensure smooth interactions and realistic experiences?
+            </p>
+          </li>
+          <li>
+            <h3>AI Agents for Creativity Support:</h3>
+            <p>
+ Artists, designers, and creators often face creative blocks or struggle with exploring diverse ideas. How can intelligent agents act as co-creators—suggesting variations in music, art, design, or storytelling—while adapting to the user’s unique style?
+            </p>
+          </li>
+          <li>
+            <h3>Self-Learning Routine Automator:</h3>
+            <p>
+ Repetitive digital tasks consume valuable human time and energy. How can autonomous agents observe user behavior, learn patterns, and eventually automate these routines efficiently while adapting to changing workflows?
+            </p>
+          </li>
+        </ol>
+      </div>
+      <div id="content7" style="display: none">
+        <ol type="1">
+          <h2>Metaverse & Virtual World</h2>
+          <hr />
+          <li>
+            <h3>Avatar Emotion & Expression Mapping:</h3>
+            <p>
+               In virtual spaces, avatars often fail to capture the depth of human emotions, reducing immersion and authenticity. How can avatars be designed to realistically mirror a user’s facial expressions, gestures, and emotions in real time?
+            </p>
+          </li>
+          <li>
+            <h3>Social Interaction Moderation:</h3>
+            <p>
+              Toxic behavior, harassment, and inappropriate content can damage user experience and safety in virtual worlds. How can AI agents proactively detect and address such behavior to ensure healthier and more respectful interactions?
+            </p>
+          </li>
+          <li>
+            <h3>
+              Adaptive Virtual Environments:
+            </h3>
+            <p>
+              Static virtual spaces can feel repetitive and fail to engage users for long periods. How can virtual worlds dynamically adapt to user preferences, behaviors, or contexts to create truly personalized experiences?
+            </p>
+          </li>
+          <li>
+            <h3>
+              Accessibility in Virtual Worlds:
+            </h3>
+            <p>
+Differently-abled users often face barriers in navigating and engaging with immersive environments. How can inclusive design and intelligent agents make virtual worlds more accessible, enabling seamless interaction, communication, and participation for all?            </p>
+          </li>
+          <li>
+            <h3>
+              Gamified Learning in VR/AR:
+            </h3>
+            <p>
+ Traditional teaching methods often struggle to fully engage learners or provide hands-on experiences. How can immersive VR/AR environments use gamification and simulations to make education more interactive, effective, and enjoyable?
+            </p>
+          </li>
+        </ol>
+      </div>
+      <div id="content8" style="display: none">
+        <ol type="1">
+          <h2>Pharmaceutical & Biotechnology</h2>
+          <hr />
+          <li>
+            <h3>AI-Aided Drug Discovery:</h3>
+            <p>
+               Traditional drug development is time-consuming, costly, and often fails in later stages. How can AI algorithms predict potential drug candidates or optimize molecular structures to accelerate discovery for specific diseases?
+            </p>
+          </li>
+          <li>
+            <h3>Personalized Medicine:</h3>
+            <p>
+               Patients respond differently to the same treatments due to genetic variability, leading to ineffective therapy or adverse effects. How can intelligent systems recommend personalized treatments or drug dosages based on an individual’s genetic profile?
+            </p>
+          </li>
+          <li>
+            <h3>
+              Disease Outbreak Prediction:
+            </h3>
+            <p>
+               Epidemics and pandemics pose global threats, often spreading faster than interventions can be implemented. How can predictive models using biological, environmental, and social data forecast outbreaks early and guide preventive measures?
+            </p>
+          </li>
+          <li>
+            <h3>Biotech Waste Management:</h3>
+            <p>
+               Pharmaceutical and laboratory processes generate hazardous waste that can harm the environment if improperly handled. How can sustainable technologies and strategies reduce the ecological impact of biotech waste?
+            </p>
+          </li>
+          <li>
+            <h3>Synthetic Biology Applications:</h3>
+            <p>
+Producing biofuels, enzymes, or therapeutic proteins efficiently remains a challenge for sustainable biotechnology. How can synthetic biological systems be designed to optimize production while minimizing resource consumption?
+            </p>
+          </li>
+          <li>
+            <h3>Smart Drug Delivery Systems:</h3>
+            <p>
+ Conventional drug delivery can be inefficient, causing side effects or reduced efficacy. How can nanotechnology or AI-powered solutions enable targeted drug delivery for improved treatment outcomes?            </p>
+          </li>
+        </ol>
+      </div>
+      <div id="content9" style="display: none">
+        <ol type="1">
+          <h2>Material Science & Nanotechnology</h2>
+          <hr />
+          <li>
+            <h3>Smart Self-Healing Materials:</h3>
+            <p>
+              Materials used in construction, transportation, and electronics often degrade over time, leading to costly repairs and safety risks. How can smart materials be designed to automatically detect and repair cracks or damage without external intervention?
+            </p>
+          </li>
+          <li>
+            <h3>Nanomaterials for Water Purification:</h3>
+            <p>
+              Access to clean water remains a global challenge, with contaminants like heavy metals, microplastics, and pathogens threatening health. How can nanoscale materials be engineered to efficiently filter and purify water at large scale?
+            </p>
+          </li>
+          <li>
+            <h3>
+             Energy Storage Solutions:
+            </h3>
+            <p>
+              Conventional batteries struggle with limited capacity, slow charging, and short lifespans. How can advanced nanomaterials be developed to enhance energy density, charge speed, and durability in next-generation storage systems?
+            </p>
+          </li>
+          <li>
+            <h3>Biodegradable Nanomaterials:</h3>
+            <p>
+               The widespread use of synthetic materials contributes to long-term environmental pollution. How can biodegradable nanomaterials be designed to perform effectively during use while safely degrading after disposal?
+            </p>
+          </li>
+          <li>
+            <h3>Materials for Flexible Electronics:</h3>
+            <p>
+Wearable devices, foldable screens, and stretchable sensors require durable yet highly conductive materials. How can novel nanomaterials enable the development of flexible electronics without compromising performance?
+            </p>
+          </li>
+        </ol>
+      </div>
+      <div id="content10" style="display: none">
+        <ol type="1">
+          <h2>Cybersecurity</h2>
+          <hr />
+          <li>
+            <h3>Automated Cybersecurity Incident Detection and Response System:</h3>
+            <p>
+             Build a system that automates the detection and response to cybersecurity incidents, including real-time threat analysis, containment measures, and reporting. Link your solution to a real-world problem.
+            </p>
+          </li>
+          <li>
+            <h3>Enhancing SOC Resilience Through AI-Driven Traffic Simulation:</h3>
+            <p>
+              Develop an AI-based Breach and Attack Simulator that not only generates both normal and malicious network traffic to accurately simulate diverse cyber attack scenarios but also incorporates a multi-purpose system for conducting simulated attacks, detection, and response, thereby assisting organizations in evaluating and improving the capabilities of their Security Operations Center (SOC) 
+            </p>
+          </li>
+          <li>
+            <h3>
+             Ransomware Detection and Mitigation System:
+            </h3>
+            <p>
+              Devise a system capable of detecting and mitigating ransomware attacks, preventing data encryption and unauthorized access to critical systems.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </div>
+    <div class="frame frame4" id="Timeline">
+      <img class="img-back-left" src="./images/back-3.svg" />
+      <img class="img-back" src="./images/back-2.svg" />
+      <div class="frame4-left">
+        <img
+          src="https://i.pinimg.com/originals/1e/bb/ad/1ebbadda5cbd38662d07f54f0ee14679.gif"
+          style="border-radius: 20%"
+        />
+      </div>
+      <div class="frame4-right">
+        <div class="name">Timeline</div>
+        <div class="timeline">
+          <div class="schedule schedule-1">
+            <div class="dot"></div>
+            <div class="schedule-content">
+              <div class="schedule-date">10th October 2025</div>
+              <div class="schedule-title">
+                Registration & Idea Submission Open
+              </div>
+            </div>
+          </div>
+          <div class="schedule schedule-1">
+            <div class="dot"></div>
+            <div class="schedule-content">
+              <div class="schedule-date">30th November 2025</div>
+              <div class="schedule-title">
+                Registration & Idea Submission Close
+              </div>
+            </div>
+          </div>
+          <div class="schedule schedule-1">
+            <div class="dot"></div>
+            <div class="schedule-content">
+              <div class="schedule-date">5th December 2025</div>
+              <div class="schedule-title">Shortlisted Teams Announced</div>
+            </div>
+          </div>
+          <div class="schedule schedule-2">
+            <div class="dot"></div>
+            <div class="schedule-content">
+              <div class="schedule-date">11th - 13th January 2026</div>
+              <div class="schedule-title">Hackathon</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="frame frame5" id="Guidelines">
+      <img src="./images/back-4.svg" class="img-back" />
+      <img src="./images/back-5.svg" class="img-back-bottom" />
+      <div class="frame5-content">
+        <div class="name" style="text-align: center">GUIDELINES</div>
+        <div class="guidelines">
+          <ul>
+            <li>Each team must consist of <b>4-5 members</b>.</li>
+            <li>Teams must include <b>at least 2 female members</b>.</li>
+            <li>
+              Only students <b>enrolled in colleges</b> are eligible to
+              participate.
+            </li>
+            <li>
+              Teams must be <b>formed from members within the same college.</b>
+            </li>
+            <li>
+              Teams can include participants from
+              <b>different branches and different years</b> within the same
+              college.
+            </li>
+            <li>
+              <b>Only female participants</b> are allowed to attend the
+              hackathon in person at the Banasthali campus.
+            </li>
+            <li>Male team members can participate and assist online.</li>
+            <li>
+              Teams comprised entirely of
+              <b>female members are welcome and encouraged</b> to participate.
+            </li>
+            <li>
+              All branches and courses are eligible for participation—<b
+                >diverse backgrounds are encouraged</b
+              >.
+            </li>
+            <li>
+              There is
+              <b>no limit on the number of teams from a single college</b>.
+            </li>
+            <li>
+              Teams are permitted to
+              <b>submit multiple entries for different domains</b>, provided
+              each submission has a <b>different team leader</b>.
+            </li>
+            <li>Each member can only be part of <b>one team per domain</b></li>
+            <li>Each team can submit <b>only one idea per domain</b>.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="frame frame3" id="Prizes" style="background-color: white">
+      <div class="name" style="color: #022149">
+        Prizes
+        <br />
+        <!-- <h3>YET TO BE REVEALED.....</h3> -->
+      </div>
+
+      <div class="responsive-image-container">
+        <img src="images/Sponsors/prize.jpg" alt="prize" />
+      </div>
+      <!-- <div class="prizes">
+          <div class="prizes-cont">
+            <div class="prize">
+              <div class="prize-img">
+                <img src="./images/new_logo.png" />
+              </div>
+              <div class="prize-text">First Prize : ₹ 15000 Cash</div>
+            </div>
+            <div class="prize">
+              <div class="prize-img">
+                <img src="./images/new_logo.png" />
+              </div>
+              <div class="prize-text">Second Prize : ₹ 10000 Cash</div>
+            </div>
+            <div class="prize">
+              <div class="prize-img">
+                <img src="./images/new_logo.png" />
+              </div>
+              <div class="prize-text">Third Prize : ₹ 5000 Cash</div>
+            </div>
+            <div class="prize">
+              <div class="prize-img">
+                <img src="./images/new_logo.png" />
+              </div>
+              <div class="prize-text">Most Innovative : ₹ 5000 Cash</div>
+            </div>
+            <div class="prize">
+              <div class="prize-img">
+                <img src="./images/new_logo.png" />
+              </div>
+              <div class="prize-text">Diversity Prize : ₹ 5000 Cash</div>
+            </div>
+            <div class="prize">
+              <div class="prize-img">
+                <img src="./images/new_logo.png" />
+              </div>
+              <div class="prize-text">
+                Best social media post tagging Hack on Hills - Special Schwags
+              </div>
+            </div>
+            <div class="prize">
+              <div class="prize-img">
+                <img
+                  class="img-square"
+                  src="./images/Sponsors/zulip-logo.png"
+                />
+              </div>
+              <div class="prize-text">Best App using Zulip API - 100$</div>
+            </div>
+            <div class="prize">
+              <div class="prize-img">
+                <img src="./images/Sponsors/hasura_logo_horizontal_black.png" />
+              </div>
+              <div class="prize-text">
+                Best App using GraphQL - ₹ 5000 Flipkart Voucher
+              </div>
+            </div>
+            <div class="prize">
+              <div class="prize-img">
+                <img src="./images/Sponsors/Matic_Logo.png" />
+              </div>
+              <div class="prize-text">Best Ethereum App - ₹ 5000 Cash</div>
+            </div>
+      </div>
+        </div> -->
+      <div style="width: 4px"></div>
+      <div class="frame frame7" id="FAQs">
+        <img src="./images/back-4.svg" class="img-back" />
+        <img src="./images/back-5.svg" class="img-back-bottom" />
+        <div class="frame7-content">
+          <div class="name">FAQs</div>
+          <div class="faq">
+            <div class="question">
+              Is this hackathon an online event or offline?
+            </div>
+            <div class="answer">
+              For teams outside of Banasthali, only female participants are
+              allowed to attend the event in person, while male team members can
+              assist their team online during the offline event.
+            </div>
+          </div>
+          <div class="faq">
+            <div class="question">
+              Is it compulsory to attend the event offline?
+            </div>
+            <div class="answer">
+              Yes, all female team members are required to attend the event in
+              person for the offline round at the Banasthali Campus.
+            </div>
+          </div>
+          <div class="faq">
+            <div class="question">
+              Does this hackathon have any participation fees for students?
+            </div>
+            <div class="answer">
+              No. The hackathon is free of cost for any student from any college
+              all over the world.
+            </div>
+          </div>
+          <div class="faq">
+            <div class="question">
+              Are there any special arrangements for international participants?
+            </div>
+            <div class="answer">
+              Yes,international participants can join in physical/hybrid mode.
+            </div>
+          </div>
+          <div class="faq">
+            <div class="question">
+              Can I participate with other college teams?
+            </div>
+            <div class="answer">
+              No, teams should have members from the same college itself.
+              Inter-college teams are not allowed.
+            </div>
+          </div>
+          <div class="faq">
+            <div class="question">
+              What are the perks and benefits of participating in this
+              hackathon?
+            </div>
+            <div class="answer">
+              Hackathons provide hands on experience with the experts from
+              different field working on the projects like Blockchain, AI/ML,
+              Machine Learning, etc. This will help to give a head start if any
+              one wants to make project on the field. Along with that the
+              participant will be provided with cool swags and stickers.
+            </div>
+          </div>
+          <div class="faq">
+            <div class="question">
+              What are the Accommodation Facilities for the participants from
+              outside the college?
+            </div>
+            <div class="answer">
+              Participants will be provided with accommodation and food in the
+              Guest House of the College during the Hackathon Period.
+            </div>
+          </div>
+          <div class="faq">
+            <div class="question">
+              How to reach Banasthali Vidyapith for the event?
+            </div>
+            <div class="answer">
+              The nearest airport to Banasthali Vidyapith is Jaipur Airport
+              (JAI) which is 50.2 km away from the campus.From Jaipur you can
+              easily find cabs or buses from Sindhi Camp(Bus stand) to reach our
+              campus.The nearest Railway Station is Niwai Station which is 5 km
+              away from the campus.
+            </div>
+          </div>
+          <div class="faq">
+            <div class="question">
+              I have a question related to hackathon which is not listed above.
+              What should I do?
+            </div>
+            <div class="answer">
+              Feel free to reach us out. You can contact us at
+              <a href="mailto:hackcelestia@gmail.com">hackcelestia@gmail.com</a>.
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="frame frame8">
+      <div class="footer-icons">
+        <a href="https://github.com/HackCelestia" target="__blank"
+          ><img src="./images/github-color.svg"
+        /></a>
+        <a
+          href="https://www.instagram.com/hackcelestia_hackathon/profilecard/?igsh=a3RydWN3MnNkb2Jr"
+          target="__blank"
+          ><img src="./images/insta-color.svg"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/hack-celestia-442540330/"
+          target="__blank"
+          ><img src="./images/linkedin-color.svg"
+        /></a>
+        <a href="mailto:hackcelestia@gmail.com"
+          ><img src="./images/email-color.svg"
+        /></a>
+      </div>
+      <div class="footer-text">
+        <u><a href="Terms and Conditions.docx" target="__blank"> T&C </a></u>
+      </div>
+      <div class="footer-text">&copy; 2024-25 Team Hackcelestia</div>
+      <div class="footer-text">
+        <u
+          ><a href="Privacy Policy.docx" target="__blank">
+            Privacy Policy
+          </a></u
+        >
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+ <script>
+      function openCard(element,contentId) {
+        const modal = document.getElementById("cardModal");
+        const modalText = document.getElementById("modalText");
+ 
+          // Get the image and text from the clicked card
+          const prizeText = element.querySelector(".prize-text").innerText;
+      const content = document.getElementById(contentId).innerHTML;
+ 
+          // Set the modal image and text
+          modalText.innerHTML = content;
+ 
+          // Display the modal
+          modal.style.display = "block";
+      }
+ 
+      // Function to close the card modal
+      function closeCard() {
+          const modal = document.querySelector("#cardModal");
+          modal.style.display = "none";
+      }
+ 
+      // Close modal when clicking outside of the content
+      window.onclick = function(event) {
+          const modal = document.querySelector("#cardModal");
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+      }
+    </script>
+    <script>
+      const toggleButton = document.getElementById("menu-toggle");
+      const navMenu = document.getElementById("nav-menu");
+      const closeButton = document.getElementById("close-menu");
+
+      // Toggle the navbar menu when the hamburger icon is clicked
+      toggleButton.addEventListener("click", () => {
+        navMenu.classList.toggle("show");
+      });
+
+      // Close the navbar menu when the close button is clicked
+      closeButton.addEventListener("click", () => {
+        navMenu.classList.remove("show");
+      });
+    </script>
+  </body>
+</html>
